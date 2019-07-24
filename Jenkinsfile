@@ -16,9 +16,9 @@ pipeline {
         bat 'mvn test'
       }
     }
-    stage('Build') {
+    stage('Sonarqube') {
       steps {
-        bat 'mvn clean install'
+        bat 'mvn sonar:sonar'
         bat 'mvn clean install'
       }
     }
