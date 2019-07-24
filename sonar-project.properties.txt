@@ -1,4 +1,5 @@
 # Required metadata
+mvn sonar:sonar
 sonar.projectKey=junitsample
 sonar.projectName=Simple Java project analyzed with the SonarQube Runner
 sonar.projectVersion=0.0.1
