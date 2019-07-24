@@ -1,0 +1,2 @@
+# Junitsample
+junit test
